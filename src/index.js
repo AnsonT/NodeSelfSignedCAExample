@@ -28,7 +28,3 @@ const options = {
 const server = https.createServer(options, app)
 
 server.listen(port, () => console.log(`Listening on port: ${port}`))
-
-if (module.hot) {
-  module.hot.accept('./app')
-}
