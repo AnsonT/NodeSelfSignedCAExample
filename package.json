@@ -1,0 +1,25 @@
+{
+  "name": "ca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "debug": "neutrino start --debug",
+    "lint": "neutrino lint",
+    "test": "neutrino test"
+  },
+  "devDependencies": {
+    "@neutrinojs/jest": "^8.2.3",
+    "@neutrinojs/node": "^8.2.3",
+    "@neutrinojs/standardjs": "^8.2.3",
+    "neutrino": "^8.2.3",
+    "source-map-support": "^0.5.6"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}

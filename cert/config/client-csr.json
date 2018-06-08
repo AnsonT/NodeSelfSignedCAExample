@@ -1,0 +1,19 @@
+{
+  "CN": "Test Client",
+  "hosts": [
+    ""
+  ],
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [
+    {
+      "C": "Country",
+      "L": "City",
+      "O": "Organization",
+      "OU": "Organization Unit",
+      "S": "State"
+    }
+  ]
+}
