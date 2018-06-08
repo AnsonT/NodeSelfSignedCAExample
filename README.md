@@ -7,6 +7,7 @@ Install GoLang
 ## Generate certificates:
 Modify cert/config files.
 > cd cert
+> mkdir ca server clients
 
 1) Generate certificate authority
 > ./genca.sh
@@ -18,10 +19,11 @@ Modify cert/config files.
 > ./genclient.sh
 
 ## Description
-- Server users server certificate to support https calls
+- Server uses server certificate to support https calls
 - Server expects clients to call with client cert
 - Client uses self signed certificate authority to validate server
 
 ## For testing
 host file
   localhost.test 127.0.0.1
+> yarn test
